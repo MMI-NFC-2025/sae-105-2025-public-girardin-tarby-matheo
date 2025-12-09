@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Girardin Tarby
+- PRÉNOM : Mathéo
+- GROUPE : C1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/1MBR55CAutFywNKr0JjnWj/Matheo_Griardin--Tarby_SAE_105?node-id=97-287&t=CfJCg5delmDQYefR-1
 
 ## Sujet
 
