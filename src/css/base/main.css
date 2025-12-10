@@ -18,8 +18,23 @@
     }
 }
 
-.header [aria-hidden="true"] {
-    display: none;
+.header [aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+html.no-scroll,
+body.no-scroll {
+    overflow: hidden;
+    height: 100%;
+    touch-action: none;
 }
 
 .header__logo {

@@ -23,16 +23,22 @@ const toggle = document.getElementById('menuButton') || document.querySelector('
 const closeBtn = document.getElementById('menuClose');
 const nav = document.getElementById('mainNav') || document.querySelector('.menu');
 const page = document.body;
-const header = document.querySelector('.header')
+const header = document.querySelector('.header');
 
-toggle.addEventListener('click', () => {
-    header.classList.toggle('close');
-    nav.classList.toggle('open');
-    page.classList.toggle('no-scroll');
-});
+function toggleMenu() {
+    if (!nav || !toggle) return;
+    const isOpen = nav.classList.toggle('open');
+    page.classList.toggle('no-scroll', isOpen);
+    document.documentElement.classList.toggle('no-scroll', isOpen);
+    if (header) header.classList.toggle('close', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    nav.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+}
 
-closeBtn.addEventListener('click', () => {
-    header.classList.toggle('close');
-    nav.classList.toggle('open');
-    page.classList.toggle('no-scroll');
-});
+if (toggle) {
+    toggle.addEventListener('click', toggleMenu);
+}
+
+if (closeBtn) {
+    closeBtn.addEventListener('click', toggleMenu);
+}
