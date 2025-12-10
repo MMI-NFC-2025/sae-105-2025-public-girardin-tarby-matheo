@@ -1,3 +1,62 @@
+.menu__header {
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 393px;
+    height: 60px;
 
+    button {
+        align-items: center;
+        background-color: var(--blue);
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin-right: var(--header);
+    }
+}
+
+.menu {
+    background-color: var(--blue);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 393px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.langueMenu {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.menu__logo {
+    margin-left: var(--header);
+    margin-right: auto;
+}
+
+.menu.open {
+    transform: none;
+    max-height: 852px;
+}
+
+
+.menu__link {
+    color: var(--beige);
+    text-decoration: none;
+}
+
+.menu__list {
+    margin-top: 75px;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: Pacifico, serif;
+    font-size: var(--menu);
+}
 
 
