@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script type="module" src="src/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
 </head>
+
 <body>
-    
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <a href="/fr/index.html">
+                    <img src="/assets/icon/logodark.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="header__menu">
+                <button id="menuButton" type="button" aria-expanded="false" aria-controls="mainNav"
+                    aria-label="Ouvrir le menu">
+                    <img src="/assets/icon/menu.svg" alt="Bouton Menu">
+                </button>
+            </div>
+        </div>
+
+        
+    </header>
+    <main>
+        <img src="assets/img/home/img1.avif"
+            alt="Deux personnes faisant des claquettes sur une scène avec en arrière plan des drones lumineux.">
+        <h12 class="timer"></h12>
+        <h2>
+            Soit les 6 et 7 Juin 2026
+        </h2>
+        <button class="btn-home" type="button">
+            Billeterie
+        </button>
+        <ul>
+            <li>Sarah Reich</li>
+            <li>Max Pollak</li>
+            <li>Roxane Butterfly</li>
+            <li>Guilhem Valayé</li>
+            <li>Léa Llinares</li>
+            <li>Chloé Arnold</li>
+            <li>Lucas Benichou</li>
+            <li>Compagnie Tap’Fusion</li>
+            <li>Compagnie Tapage</li>
+        </ul>
+        <ul class="vignette-apercu-accueil">
+            <li><img src="assets/img/home/img2.avif" alt=""></li>
+            <li><img src="assets/img/home/img3.avif" alt=""></li>
+            <li><img src="assets/img/home/img4.avif" alt=""></li>
+            <li><img src="assets/img/home/img5.avif" alt=""></li>
+            <li><img src="assets/img/home/img6.avif" alt=""></li>
+        </ul>
+        <button class="btn-home" type="button">
+            Programme
+        </button>
+    </main>
 </body>
+
 </html>

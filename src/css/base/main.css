@@ -1,0 +1,12 @@
+.timer {
+    font-size: var(--titre);
+    font-family: Lato, sans-serif;
+    background-color: #2C4258;
+    color: #ECD8BD;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    width: 363px;
+    height: 48px;
+}
