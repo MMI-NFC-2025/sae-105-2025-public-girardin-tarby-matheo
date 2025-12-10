@@ -13,7 +13,8 @@
         background: none;
         border: none;
         cursor: pointer;
-        margin-right: var(--header);
+        margin-right: var(--margin-2);
+        
     }
 }
 
@@ -28,14 +29,11 @@
     transition: max-height 0.3s ease-out;
 }
 
-.langueMenu {
-    margin-left: auto;
-    margin-right: 15px;
-}
-
 .menu__logo {
-    margin-left: var(--header);
+    margin-left: var(--margin-2);
     margin-right: auto;
+    margin-top: var(--margin-3);
+    margin-bottom: var(--margin-3);
 }
 
 .menu.open {
@@ -56,7 +54,29 @@
     margin-top: 15px;
     margin-left: 30px;
     font-family: Pacifico, serif;
-    font-size: var(--menu);
+    font-size: var(--xxl);
 }
 
+
+.menu-contact__infos {
+    font-family: Lato;
+    color: var(--beige);
+}
+
+.menu__contact,
+.resauxsociaux {
+    margin-left: var(--margin-2);
+}
+
+.menu-contact__btn {
+    text-decoration: none;
+    font-family: Pacifico;
+    color: var(--beige);
+    margin-top: 94px;
+    margin-bottom: 0;
+}
+
+.item1 {
+    margin-top: 93px;
+}
 
