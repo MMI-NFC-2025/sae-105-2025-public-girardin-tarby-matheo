@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: var(--beige);
     display: flex;
     align-items: center;
@@ -6,7 +6,7 @@
     left: 0;
     width: 393px;
     height: auto;
-    
+
     button {
         align-items: center;
         background-color: var(--blue);
@@ -14,7 +14,7 @@
         border: none;
         cursor: pointer;
         margin-right: var(--header);
-        
+
     }
 }
 
@@ -54,12 +54,28 @@ body.no-scroll {
 .timer {
     font-size: var(--titre);
     font-family: Lato;
-    background-color: #2C4258;
-    color: #ECD8BD;
-    padding: 20px 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: var(--beige);
     display: inline-block;
-    width: 363px;
+    width: 317px;
     height: 48px;
+    margin: var(--margin-2);
+    padding: var(--margin-3);
+
+}
+
+main {
+    background-color: var(--blue);
+}
+
+h3 {
+    font-size: var(--xl);
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 343px;
+    margin: var(--margin-2);
+    margin-top: 0;
+    color: var(--beige);
 }
