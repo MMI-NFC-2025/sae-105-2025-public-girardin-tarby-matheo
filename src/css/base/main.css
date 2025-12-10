@@ -129,3 +129,17 @@ h3 {
     margin: 0;
     padding: var(--margin-2);
 }
+
+h4 {
+    font-family: Pacifico;
+    font-size: var(--titre-1);
+    font-weight: 400;
+    text-align: center;
+    color: var(--beige);
+    display: flex;
+    width: 343px;
+    height: 77px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}

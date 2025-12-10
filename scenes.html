@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scènes</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script type="module" src="src/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <a href="/fr/index.html">
+                    <img src="/assets/icon/logodark.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="header__menu">
+                <button id="menuButton" type="button" aria-expanded="false" aria-controls="mainNav"
+                    aria-label="Ouvrir le menu">
+                    <img src="/assets/icon/menu.svg" alt="Bouton Menu">
+                </button>
+            </div>
+        </div>
+
+        <!-- MENU -->
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <div class="menu__header">
+                <a class="menu__logo" href="index.html">
+                    <img src="/assets/icon/logolight.svg" alt="Logo">
+                </a>
+                <button id="menuClose" class="menu__close" type="button" aria-label="Fermer le menu">
+                    <img src="/assets/icon/croixdesortiemenu.svg" alt="Fermer">
+                </button>
+            </div>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item item1">
+                    <a class="menu__link" href="/propos.html">À Propos</a>
+                </li>
+                <br>
+                <li class="menu__item item2">
+                    <a class="menu__link" href="/programme.html">Programme</a>
+                </li>
+                <br>
+
+                <li class="menu__item item3">
+                    <a class="menu__link" href="/scenes.html">Scènes</a>
+                </li>
+                <br>
+                <li class="menu__item item4">
+                    <a class="menu__link" href="/infos.html">Infos Pratiques</a>
+                </li>
+            </ul>
+            <div class="menu__contact">
+                <a class="menu-contact__btn" href="/contact.html">
+                    Contact
+                </a>
+                <p class="menu-contact__infos">
+                    contact@flyingtapfest.fr <br>
+                    03 84 90 90 90 <br>
+                    6 place de la révolution francaise, <br>
+                    90000 Belfort
+                </p>
+            </div>
+            <div class="resauxsociaux">
+                <a class="menu__logo1" href="https://www.facebook.com/"><img src="assets/icon/facebook.svg"
+                        alt="logo facebook"></a>
+                <a class="menu__logo2" href="https://www.instagram.com/"><img src="assets/icon/insta.svg"
+                        alt="logo insta"></a>
+                <a class="menu__logo3" href="https://x.com/"><img src="assets/icon/twitter.svg" alt="logo twitter"></a>
+                <a class="menu__logo4" href="https://www.youtube.com/"><img src="assets/icon/youtube1.svg"
+                        alt="logo youtube"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h4 class="scenes__titre">
+            Scènes
+        </h4>
+    </main>
+    <footer>
+        <ul section="footer" class="footer__partenaires">
+            <li>
+                <a class="footer__partenaire1" href="https://www.ffdanse.fr/">
+                    <img class="footer__img-partenaire1" src="assets/icon/footer1.avif"
+                        alt="lien vers le site de la Fédération francaise de Danse">
+                </a>
+            </li>
+            <li>
+                <a class="footer__partenaire2" href="https://www.territoiredebelfort.fr/">
+                    <img class="footer__img-partenaire2" src="assets/icon/footer2.avif"
+                        alt="lien vers le site du département du territoire de Belfort">
+                </a>
+            </li>
+            <li>
+                <a class="footer__partenaire3" href="index.html">
+                    <img class="footer__img-partenaire3" src="assets/icon/footer3.avif"
+                        alt="lien vers le site du festival Flying tap fest">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
