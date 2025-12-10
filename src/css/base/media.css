@@ -1,3 +1,12 @@
 .menu-hero__img {
     width: 393px;
 }
+.accueil__img-apercu1,
+.accueil__img-apercu2,
+.accueil__img-apercu3,
+.accueil__img-apercu4,
+.accueil__img-apercu5 {
+    border-radius: 15%;
+    width: 67px;
+    height: 44px;
+}

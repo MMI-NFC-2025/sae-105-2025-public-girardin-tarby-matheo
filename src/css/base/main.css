@@ -13,7 +13,6 @@
         background: none;
         border: none;
         cursor: pointer;
-        margin-right: var(--header);
 
     }
 }
@@ -78,4 +77,47 @@ h3 {
     margin: var(--margin-2);
     margin-top: 0;
     color: var(--beige);
+}
+
+.home__btn-blleterie {
+
+    display: block;
+    background-color: var(--beige);
+    color: var(--blue);
+    border: none;
+    cursor: pointer;
+    width: 343px;
+    margin: var(--margin-2);
+    font-family: Pacifico;
+    font-size: var(--titre-1);
+    padding: var(--margin-3);
+}
+
+.home__btn {
+    background-color: var(--blue);
+    border: none;
+}
+
+.home__link {
+    text-decoration: none;
+    display: block;
+    background-color: var(--beige);
+    color: var(--blue);
+    border: none;
+    cursor: pointer;
+    width: 312px;
+    margin: var(--margin-2);
+    font-family: Pacifico;
+    font-size: var(--titre-1);
+    padding: var(--margin-3);
+    padding-bottom: var(--margin-2);
+}
+
+.vignette-apercu-accueil {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    align-self: stretch;
+    margin: var(--margin-2);
+    padding: 0;
 }
