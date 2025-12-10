@@ -121,3 +121,11 @@ h3 {
     margin: var(--margin-2);
     padding: 0;
 }
+
+.footer__partenaires {
+    background-color: var(--beige);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: var(--margin-2);
+}

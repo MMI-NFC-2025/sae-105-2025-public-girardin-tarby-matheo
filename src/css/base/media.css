@@ -1,6 +1,7 @@
 .menu-hero__img {
     width: 393px;
 }
+
 .accueil__img-apercu1,
 .accueil__img-apercu2,
 .accueil__img-apercu3,
@@ -9,4 +10,16 @@
     border-radius: 15%;
     width: 67px;
     height: 44px;
+}
+
+.footer__img-partenaire1,
+.footer__img-partenaire2 {
+    margin-right: var(--margin-1);
+    width: auto;
+    height: 48px;
+}
+
+.footer__img-partenaire3 {
+    width: auto;
+    height: 48px;
 }
