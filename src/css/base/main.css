@@ -302,3 +302,46 @@ h4 {
     margin-top: 0;
     margin-bottom: var(--margin-3);
 }
+
+.erreur__logo {
+    width: 190px;
+    height: auto;
+    display: block;
+    margin-left: 101.5px;
+    padding-top: 121px;
+    margin-bottom: 48px;
+}
+
+.erreur__titre {
+    color: var(--beige);
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 343px;
+    height: 84px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: var(--margin-2);
+    margin-bottom: auto;
+}
+
+.erreur__texte {
+    color: var(--beige);
+    text-align: center;
+    font-family: Lato;
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 343px;
+    height: 84px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: var(--margin-2);
+    margin-top: var(--margin-3);
+}
