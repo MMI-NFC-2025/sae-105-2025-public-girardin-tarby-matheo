@@ -345,3 +345,27 @@ h4 {
     margin-left: var(--margin-2);
     margin-top: var(--margin-3);
 }
+
+.erreur__retour-accueil {
+    text-decoration: none;
+    display: block;
+    background-color: var(--green);
+    color: var(--blue);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: var(--2xl);
+    padding: var(--margin-2);
+    padding-left: 49px;
+    padding-right: 49px;
+    width: 245px;
+    border-radius: 5px;
+    margin: var(--margin-2);
+}
+
+.erreur {
+    background-color: var(--blue);
+    padding-bottom: 128px;
+}
