@@ -28,3 +28,9 @@
     width: 393px;
     height: auto;
 }
+
+.scenes__vignette-img {
+    width: 343px;
+    height: auto;
+    margin-bottom: 0;
+}

@@ -12,6 +12,7 @@
 
 main {
     background-color: var(--blue);
+    padding-bottom: var(--margin-2);
 }
 
 h3 {
@@ -202,9 +203,9 @@ h4 {
     padding-right: 19px;
     width: 203px;
 }
+
 .home__infos {
     background-color: var(--blue);
-    padding-bottom: 25px;
 }
 
 .menu__infos-titre {
@@ -223,6 +224,29 @@ h4 {
     font-weight: 400;
     color: var(--beige);
     margin-top: 0;
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+}
+
+h5 {
+    font-family: Pacifico;
+    font-size: var(--l);
+    color: var(--blue);
+    background-color: var(--beige);
+    width: 331px;
+    height: 56px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: var(--margin-2);
+    padding-left: var(--margin-3);
+    padding-top: 18px;
+}
+
+.scenes__vignette-titre2 {
+    margin-bottom: 0;
+}
+
+.scenes__vignette {
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
 }
