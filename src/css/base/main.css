@@ -265,3 +265,22 @@ h4 {
     margin-right: var(--margin-2);
 }
 
+.infos-pratiques {
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+}
+
+.infos__titre {
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+}
+
+.infos__sous-titre {
+    font-family: Pacifico;
+    font-size: var(--l);
+    font-weight: 400;
+    color: var(--beige);
+    margin-top: var(--margin-2);
+    margin-bottom: var(--margin-2);
+}
+
