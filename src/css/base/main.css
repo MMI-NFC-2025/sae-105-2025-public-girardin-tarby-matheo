@@ -93,27 +93,26 @@ h3 {
     padding: var(--margin-3);
 }
 
-.home__btn {
-    background-color: var(--blue);
-    border: none;
-}
 
-.home__link {
+/* .home__link {
+    height: auto;
     text-decoration: none;
     display: block;
     background-color: var(--beige);
     color: var(--blue);
     border: none;
     cursor: pointer;
-    width: 312px;
+    width: 343px;
     margin: var(--margin-2);
     font-family: Pacifico;
     font-size: var(--titre-1);
-    padding: var(--margin-3);
-    padding-bottom: var(--margin-2);
-}
+    /* padding: var(--margin-3); */
+/* padding-bottom: var(--margin-2);
+padding-left: 50px;
+padding-right: 0px;
+} */
 
-.vignette-apercu-accueil {
+*/ .vignette-apercu-accueil {
     list-style: none;
     align-items: center;
     display: flex;
