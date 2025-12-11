@@ -143,3 +143,36 @@ h4 {
     justify-content: center;
     margin: 0;
 }
+
+.contactlabel {
+    font-family: Lato;
+    font-size: var(--xl);
+    font-weight: 400;
+    color: var(--beige);
+}
+
+.contactinput {
+    font-family: Lato;
+    font-size: var(--xl);
+    font-weight: 400;
+    color: var(--black);
+    width: 343px;
+    height: 32px;
+    margin-bottom: var(--margin-2);
+    background-color: var(--beige);
+    border: none;
+    border-radius: 5px;
+}
+
+.contactinput4 {
+    font-family: Lato;
+    font-size: var(--m);
+    font-weight: 400;
+    color: var(--black);
+    width: 343px;
+    height: 96px;
+    margin-bottom: var(--margin-2);
+    background-color: var(--beige);
+    border: none;
+    border-radius: 5px;
+}
