@@ -242,3 +242,23 @@ h4 {
     background-color: var(--blue);
     padding-bottom: 25px;
 }
+
+.menu__infos-titre {
+    font-family: Pacifico;
+    font-size: var(--2xl);
+    font-weight: 400;
+    color: var(--beige);
+    margin-top: 5px;
+    margin-left: var(--margin-2);
+    margin-bottom: var(--margin-3);
+}
+
+.home__infos-text {
+    font-family: Lato;
+    font-size: var(--xs);
+    font-weight: 400;
+    color: var(--beige);
+    margin-top: 0;
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+}
