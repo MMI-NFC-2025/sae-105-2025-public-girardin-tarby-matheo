@@ -228,7 +228,9 @@ h4 {
     margin-right: var(--margin-2);
 }
 
-h5 {
+.scenes__vignette-titre1 {
+    text-decoration: none;
+    display: block;
     font-family: Pacifico;
     font-size: var(--l);
     color: var(--blue);
@@ -243,6 +245,18 @@ h5 {
 }
 
 .scenes__vignette-titre2 {
+    text-decoration: none;
+    display: block;
+    font-family: Pacifico;
+    font-size: var(--l);
+    color: var(--blue);
+    background-color: var(--beige);
+    width: 331px;
+    height: 56px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-left: var(--margin-3);
+    padding-top: 18px;
     margin-bottom: 0;
 }
 
