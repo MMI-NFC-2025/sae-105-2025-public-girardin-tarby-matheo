@@ -176,3 +176,24 @@ h4 {
     border: none;
     border-radius: 5px;
 }
+
+.contactform {
+    margin: var(--margin-2);
+    background-color: var(--blue);
+}
+
+.contactsubmit-btn {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--l);
+    font-weight: 400;
+    color: var(--blue);
+    background-color: var(--green);
+    border: none;
+    cursor: pointer;
+    width: 166px;
+    height: 32px;
+    margin-bottom: var(--margin-2);
+    border-radius: 5px;
+}
