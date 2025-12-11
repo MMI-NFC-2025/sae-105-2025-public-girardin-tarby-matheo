@@ -374,3 +374,37 @@ h4 {
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
 }
+
+.prog__vignette-cadre {
+    background-color: var(--beige);
+    width: 343px;
+    height: auto;
+    margin-bottom: var(--margin-2);
+    margin-top: 0;
+}
+
+.prog__vignette-artiste {
+    margin-top: 0;
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: var(--l);
+    margin-left: var(--margin-3);
+    color: var(--blue);
+    width: 199px;
+}
+
+.prog__vignette-scene1 {
+    margin-right: var(--margin-3);
+    display: block;
+    background-color: var(--green);
+    font-family: Lato;
+    font-size: var(--l);
+    font-weight: 400;
+    width: 94px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    color: var(--blue);
+    margin-left: var(--margin-2);
+}
