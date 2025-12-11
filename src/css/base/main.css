@@ -95,21 +95,22 @@ h3 {
 
 
 .home__link {
-    height: auto;
     text-decoration: none;
     display: block;
     background-color: var(--beige);
     color: var(--blue);
     border: none;
     cursor: pointer;
-    width: 343px;
     margin: var(--margin-2);
+    margin-bottom: var(--margin-2);
+    margin-left: var(--margin-2);
     font-family: Pacifico;
     font-size: var(--titre-1);
     padding: var(--margin-3);
     padding-bottom: var(--margin-2);
-    padding-left: 50px;
-    padding-right: 0px;
+    padding-right: 49px;
+    padding-left: 49px;
+    width: 245px;
 }
 
 .vignette__apercu-accueil {
@@ -220,7 +221,7 @@ h4 {
     padding-bottom: var(--margin-2);
 }
 
-.menu__infos-btn {
+.home__infos-btn {
     text-decoration: none;
     display: block;
     background-color: var(--beige);
@@ -237,7 +238,7 @@ h4 {
     padding-right: 19px;
     width: 203px;
 }
-.menu__infos {
+.home__infos {
     background-color: var(--blue);
     padding-bottom: 25px;
 }
