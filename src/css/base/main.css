@@ -99,8 +99,8 @@ h4 {
     width: 343px;
     height: 77px;
     flex-direction: column;
-    justify-content: center;
     margin: 0;
+    justify-content: center;
 }
 
 .contact__label {
@@ -264,3 +264,4 @@ h4 {
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
 }
+
