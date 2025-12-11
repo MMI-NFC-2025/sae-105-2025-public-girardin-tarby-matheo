@@ -369,3 +369,8 @@ h4 {
     background-color: var(--blue);
     padding-bottom: 128px;
 }
+
+.prog__vignette {
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+}
