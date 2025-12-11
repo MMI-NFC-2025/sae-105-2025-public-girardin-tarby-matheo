@@ -284,3 +284,21 @@ h4 {
     margin-bottom: var(--margin-2);
 }
 
+.infos__liste {
+    font-family: Lato;
+    font-size: var(--xs);
+    font-weight: 400;
+    color: var(--beige);
+    margin-top: 0;
+    margin-bottom: var(--margin-2);
+    padding-left: var(--margin-2);
+}
+
+.infos__texte {
+    font-family: Lato;
+    font-size: var(--xs);
+    font-weight: 400;
+    color: var(--beige);
+    margin-top: 0;
+    margin-bottom: var(--margin-3);
+}
