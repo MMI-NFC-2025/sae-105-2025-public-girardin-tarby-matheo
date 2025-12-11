@@ -197,3 +197,24 @@ h4 {
     margin-bottom: var(--margin-2);
     border-radius: 5px;
 }
+
+.réseaux__sociaux-texte {
+    font-family: Pacifico;
+    color: var(--beige);
+    margin-bottom: var(--margin-3);
+}
+
+.contact__infos {
+    font-family: Lato;
+    color: var(--beige);
+    margin-bottom: var(--margin-2);
+    margin-top: 0;
+}
+
+.contact {
+    margin-left: var(--margin-2);
+}
+
+.réseaux__sociaux-btn {
+    padding-bottom: var(--margin-2);
+}
