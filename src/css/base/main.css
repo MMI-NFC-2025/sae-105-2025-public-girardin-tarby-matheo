@@ -380,7 +380,7 @@ h4 {
 .prog__vignette {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .prog__vignette-cadre {
@@ -513,4 +513,8 @@ h4 {
     align-items: center;
     margin-bottom: 0;
     width: 393px;
+}
+
+.prog__vignette-link {
+    text-decoration: none;
 }
