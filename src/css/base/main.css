@@ -376,22 +376,23 @@ h4 {
 }
 
 .prog__vignette-cadre {
-    display: flex;
+    
     background-color: var(--beige);
     width: 343px;
-    height: auto;
+    height: 79px;
     margin-bottom: var(--margin-2);
     margin-top: 0;
 }
 
 .prog__vignette-artiste {
-    margin-top: 0;
     font-family: Pacifico;
     font-weight: 400;
     font-size: var(--l);
     margin-left: var(--margin-3);
     color: var(--blue);
     width: 199px;
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
 
 .prog__vignette-scene1 {
@@ -408,6 +409,8 @@ h4 {
     padding-bottom: 2px;
     color: var(--blue);
     margin-left: var(--margin-2);
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
 
 .prog__vignette-scene2 {
@@ -424,6 +427,8 @@ h4 {
     padding-bottom: 2px;
     color: #FFFFFF;
     margin-left: var(--margin-2);
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
 
 .prog__vignette-date {
@@ -434,3 +439,10 @@ h4 {
     margin-left: var(--margin-3);
     margin-top: 0;
 }
+
+.prog__vignette-align {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+]
