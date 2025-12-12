@@ -376,6 +376,7 @@ h4 {
 }
 
 .prog__vignette-cadre {
+    display: flex;
     background-color: var(--beige);
     width: 343px;
     height: auto;
@@ -407,4 +408,29 @@ h4 {
     padding-bottom: 2px;
     color: var(--blue);
     margin-left: var(--margin-2);
+}
+
+.prog__vignette-scene2 {
+    margin-right: var(--margin-3);
+    display: block;
+    background-color: var(--black);
+    font-family: Lato;
+    font-size: var(--l);
+    font-weight: 400;
+    width: 94px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    color: #FFFFFF;
+    margin-left: var(--margin-2);
+}
+
+.prog__vignette-date {
+    font-family: Lato;
+    font-size: var(--s);
+    font-weight: 400;
+    color: var(--blue);
+    margin-left: var(--margin-3);
+    margin-top: 0;
 }
