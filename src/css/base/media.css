@@ -40,3 +40,9 @@
     height: auto;
     margin-bottom: 0;
 }
+
+.carousel__item img {
+    display: block;
+    width: 368px;
+    height: 207px;
+}

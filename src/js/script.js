@@ -19,6 +19,8 @@ const countdown = setInterval(() => {
     }
 }, 1000);
 
+
+
 const toggle = document.getElementById('menuButton') || document.querySelector('.menu-button');
 const closeBtn = document.getElementById('menuClose');
 const nav = document.getElementById('mainNav') || document.querySelector('.menu');
@@ -42,3 +44,25 @@ if (toggle) {
 if (closeBtn) {
     closeBtn.addEventListener('click', toggleMenu);
 }
+
+
+
+const carousel = document.querySelector("div.carousel__container");
+const prevButton = document.querySelector("button.carousel__button--prev");
+const nextButton = document.querySelector("button.carousel__button--next");
+
+if (carousel) {
+    prevButton.addEventListener("click", () => {
+        carousel.scrollBy({
+            left: -260, behavior: "smooth"
+        });
+    });
+    nextButton.addEventListener("click", () => {
+        carousel.scrollBy({
+            left: 260, behavior: "smooth"
+        });
+    });
+}
+
+const premierItem = document.querySelector(".carousel__item");
+scrollAmount = premierItem.clientWidth;
