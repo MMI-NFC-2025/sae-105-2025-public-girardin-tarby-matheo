@@ -521,3 +521,21 @@ h4 {
     text-decoration: none;
 }
 
+.artiste1__prog {
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+    color: var(--green);
+    font: Lato;
+    font-size: var(--s);
+    font-weight: 700;
+    margin-top: var(--margin-2);
+}
+
+.artiste1__description {
+    margin-left: var(--margin-2);
+    margin-right: var(--margin-2);
+    color: var(--beige);
+    font: Lato;
+    font-size: var(--xs);
+    font-weight: 400;
+}
