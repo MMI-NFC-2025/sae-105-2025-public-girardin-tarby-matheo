@@ -1,3 +1,5 @@
+/* page html : /index.html */
+
 const targetDate = new Date("Jun 6, 2026 14:00:00").getTime();
 
 const countdown = setInterval(() => {
@@ -11,7 +13,7 @@ const countdown = setInterval(() => {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    h2.innerHTML = `${days}j ${hours}h ${minutes}m ${seconds}s` ;
+    h2.innerHTML = `${days}j ${hours}h ${minutes}m ${seconds}s`;
 
     if (distance < 0) {
         clearInterval(countdown);
@@ -19,7 +21,7 @@ const countdown = setInterval(() => {
     }
 }, 1000);
 
-
+/* page html : /index.html */
 
 const toggle = document.getElementById('menuButton') || document.querySelector('.menu-button');
 const closeBtn = document.getElementById('menuClose');
@@ -45,7 +47,7 @@ if (closeBtn) {
     closeBtn.addEventListener('click', toggleMenu);
 }
 
-
+/* page html : /artiste1.html */
 
 const carousel = document.querySelector("div.carousel__container");
 const prevButton = document.querySelector("button.carousel__button--prev");
@@ -67,21 +69,23 @@ if (carousel) {
 const premierItem = document.querySelector(".carousel__item");
 scrollAmount = premierItem.clientWidth;
 
+/* page html :  /infos.html */
 
-
-const questionButtons = document.querySelectorAll(".questionbtn");
+const questionButtons = document.querySelectorAll(".question__btn");
 
 questionButtons.forEach(button => {
     button.addEventListener("click", () => {
-        const questionItem = button.closest(".questionitem");
+        const questionItem = button.closest(".question__item");
         const isActive = questionItem.classList.contains("active");
 
+        // Fermer les autres éléments
         document.querySelectorAll(".question__item.active").forEach(item => {
             if (item !== questionItem) {
                 item.classList.remove("active");
             }
         });
 
+        // Basculer l'élément actif
         questionItem.classList.toggle("active");
     });
 });

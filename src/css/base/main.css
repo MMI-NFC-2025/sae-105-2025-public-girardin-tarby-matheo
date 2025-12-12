@@ -61,6 +61,26 @@ h3 {
     text-align: center;
 }
 
+.texte__accueil-preview {
+    text-align: center;
+}
+
+.preview__artistes {
+    list-style: none;
+    display: block;
+    align-items: center;
+    font-family: Lato;
+    font-size: var(--xl);
+    color: var(--beige);
+    margin: var(--margin-2);
+    padding: 0;
+    gap: 2.5px;
+    gap: auto;
+    width: 343px;
+    height: auto;
+}
+
+
 .home__link1 {
     text-decoration: none;
     display: block;
@@ -582,35 +602,40 @@ h4 {
     padding-right: 0;
 }
 
-.btn__text {
-    font-family: Lato;
-    font-size: 0.875rem;
-    font-weight: 400;
-    color: var(--blue);
-}
+
 
 .question__btn {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
     width: 343px;
     height: 48px;
     background-color: var(--beige);
     border: none;
     cursor: pointer;
-    padding-left: var(--margin-2);
-    padding-right: var(--margin-2);
+    padding-left: var(--margin-3);
+    padding-right: var(--margin-3);
     margin-bottom: var(--margin-2);
 }
 
 .content__text {
     font-family: Lato;
-    font-size: var(--s);
+    font-size: var(--xs);
     font-weight: 400;
     color: var(--beige);
     margin-top: 0;
     margin-bottom: var(--margin-3);
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
-    width: 343px;
+}
+
+.link__contact-deroule {
+    color: var(--beige);
+    text-decoration: underline;
+}
+
+.question__btn {
+    margin-left: var(--margin-2);
+    width: 323px;
 }
