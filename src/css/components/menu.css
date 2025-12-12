@@ -68,6 +68,7 @@
 
 .menu-contact__infos {
     font-family: Lato;
+    font-size: var(--m);
     color: var(--beige);
     margin-bottom: var(--margin-2);
     margin-top: 0;
@@ -84,6 +85,7 @@
     color: var(--beige);
     margin-top: 94px;
     margin-bottom: 0;
+    font-size: var(--xl);
 }
 
 .item1 {
