@@ -54,12 +54,12 @@ const nextButton = document.querySelector("button.carousel__button--next");
 if (carousel) {
     prevButton.addEventListener("click", () => {
         carousel.scrollBy({
-            left: -260, behavior: "smooth"
+            left: -355.5, behavior: "smooth"
         });
     });
     nextButton.addEventListener("click", () => {
         carousel.scrollBy({
-            left: 260, behavior: "smooth"
+            left: 355.5, behavior: "smooth"
         });
     });
 }
