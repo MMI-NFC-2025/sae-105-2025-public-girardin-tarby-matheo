@@ -445,4 +445,21 @@ h4 {
     align-items: center;
     margin-bottom: 0;
 }
-]
+
+.prog__telechargement-bas {
+    text-decoration: none;
+    display: block;
+    background-color: var(--green);
+    color: var(--blue);
+    border: none;  
+    cursor: pointer;
+    margin: var(--margin-2);
+    font-family: Lato;
+    font-weight: 400;
+    font-size: var(--m);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 343px;
+    text-align: center;
+}
+
