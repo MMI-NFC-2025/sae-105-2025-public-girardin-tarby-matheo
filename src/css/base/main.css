@@ -478,4 +478,31 @@ h4 {
     padding-bottom: var(--margin-3);
     width: 214px;
     text-align: center;
+    margin-right: 0;
+}
+
+.prog__tirer {
+    text-decoration: none;
+    display: block;
+    background-color: var(--green);
+    color: var(--blue);
+    border: none;
+    cursor: pointer;
+    margin: var(--margin-2);
+    font-family: Lato;
+    font-weight: 400;
+    font-size: var(--m);
+    padding-top: var(--margin-3);
+    padding-bottom: var(--margin-3);
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: var(--margin-2);
+}
+
+.prog__btn-haut {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    width: 393px;
 }
