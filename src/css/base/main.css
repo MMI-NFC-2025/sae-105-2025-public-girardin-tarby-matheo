@@ -456,10 +456,26 @@ h4 {
     margin: var(--margin-2);
     font-family: Lato;
     font-weight: 400;
-    font-size: var(--m);
+    font-size: var(--xl);
     padding-top: 15px;
     padding-bottom: 15px;
     width: 343px;
     text-align: center;
 }
 
+.prog__telechargement-haut {
+    text-decoration: none;
+    display: block;
+    background-color: var(--green);
+    color: var(--blue);
+    border: none;
+    cursor: pointer;
+    margin: var(--margin-2);
+    font-family: Lato;
+    font-weight: 400;
+    font-size: var(--m);
+    padding-top: var(--margin-3);
+    padding-bottom: var(--margin-3);
+    width: 214px;
+    text-align: center;
+}
