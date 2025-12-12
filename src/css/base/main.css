@@ -263,6 +263,8 @@ h4 {
 .scenes__vignette {
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
+    display: flex;
+    flex-direction: column;
 }
 
 .infos-pratiques {
@@ -370,13 +372,19 @@ h4 {
     padding-bottom: 128px;
 }
 
-.prog__vignette {
+.prog__vignettes {
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
 }
 
-.prog__vignette-cadre {
+.prog__vignette {
+    display: flex;
+    flex-direction: column;
     
+}
+
+.prog__vignette-cadre {
+    text-decoration: none;
     background-color: var(--beige);
     width: 343px;
     height: 79px;
@@ -451,7 +459,7 @@ h4 {
     display: block;
     background-color: var(--green);
     color: var(--blue);
-    border: none;  
+    border: none;
     cursor: pointer;
     margin: var(--margin-2);
     font-family: Lato;
