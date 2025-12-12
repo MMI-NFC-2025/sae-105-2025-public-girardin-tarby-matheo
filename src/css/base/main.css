@@ -97,9 +97,11 @@ h4 {
     color: var(--beige);
     display: flex;
     width: 343px;
-    height: 77px;
+    height: auto;
     flex-direction: column;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: var(--margin-3);
+    margin-left: var(--margin-2);
     justify-content: center;
 }
 
