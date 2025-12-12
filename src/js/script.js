@@ -54,15 +54,18 @@ const nextButton = document.querySelector("button.carousel__button--next");
 if (carousel) {
     prevButton.addEventListener("click", () => {
         carousel.scrollBy({
-            left: -355.5, behavior: "smooth"
+            left: -330, behavior: "smooth"
         });
     });
     nextButton.addEventListener("click", () => {
         carousel.scrollBy({
-            left: 355.5, behavior: "smooth"
+            left: 330, behavior: "smooth"
         });
     });
 }
 
 const premierItem = document.querySelector(".carousel__item");
 scrollAmount = premierItem.clientWidth;
+
+
+

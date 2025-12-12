@@ -53,3 +53,8 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.artiste__temp-img {
+    width: 393px;
+    height: auto;
+}
