@@ -69,3 +69,19 @@ scrollAmount = premierItem.clientWidth;
 
 
 
+const questionButtons = document.querySelectorAll(".questionbtn");
+
+questionButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const questionItem = button.closest(".questionitem");
+        const isActive = questionItem.classList.contains("active");
+
+        document.querySelectorAll(".question__item.active").forEach(item => {
+            if (item !== questionItem) {
+                item.classList.remove("active");
+            }
+        });
+
+        questionItem.classList.toggle("active");
+    });
+});
